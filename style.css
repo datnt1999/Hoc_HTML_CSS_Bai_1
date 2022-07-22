@@ -1,0 +1,79 @@
+body{
+    width: 100vw;
+    background-color: beige;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.header{
+    width: 100%;
+}
+.header h1{
+    font-size: 50px;
+    color: #000;
+}
+.header p{
+    font-size: 24px;
+    color: gray;
+}
+.header img{
+    width: 100%;
+    box-shadow: 0 0 15px red;
+}
+.header h4{
+    font-size:30px;
+}
+.header ol{
+    font-size: 36px;
+    margin-left: 80px;
+    color: gray;
+}
+.main{
+    width: 100%;
+}
+.main .center{
+    width: 100%;
+    text-align: center;
+}
+.main .center img{
+    box-shadow: 0 0 20px gold;
+}
+.main p{
+    color: gray;
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    width: 50%;
+}
+table tr td{
+    font-size: 24px;
+    color: gray;
+    border: 1px solid black;
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer form{
+    padding: 20px;
+    width: 400px;
+    background-color: beige;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+form .input-user{
+    height: 40px;
+    width: 100%;
+    margin: 15px 0;
+}
+form h3, form span{
+    color: orange;
+}
